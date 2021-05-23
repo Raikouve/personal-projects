@@ -1,13 +1,9 @@
-/* PEÃO */
-// Posição da peão
 let pawnRowPosition = 6;
 let pawnColumnPosition = 4;
 
-/* Posição da peça oponente */
 let opponentRowPosition = 7;
 let opponentColumnPosition = 3;
 
-/* Pode atacar? */
 let pawnCanAttack = false;
 
 if (pawnRowPosition - opponentRowPosition === -1 && pawnColumnPosition - opponentColumnPosition === -1) {

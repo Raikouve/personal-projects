@@ -1,20 +1,10 @@
-/* CAVALO */
-
-// Posição do cavalo
 let knightRowPosition = 6;
 let knightColumnPosition = 4;
 
-/* Posição da peça oponente */
 let opponentRowPosition = 4;
 let opponentColumnPosition = 3;
 
-/* Pode atacar? */
 let knightCanAttack = false;
-
-// Calculo para entender se o ataque foi bem sucedido ou não
-
-// Se o cavalo esta na mesma linha que a peça oponente OU a cavalo esta na mesma coluna que a peça oponente, significa que o ataque é bem sucedido
-
 
 if (knightRowPosition - opponentRowPosition === 2 && knightColumnPosition - opponentColumnPosition === 1) {
   knightCanAttack = true;

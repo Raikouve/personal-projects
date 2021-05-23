@@ -1,19 +1,10 @@
-/* REI */
-
-// Posição do rei
 let kingRowPosition = 6;
 let kingColumnPosition = 4;
 
-/* Posição da peça oponente */
 let opponentRowPosition = 7;
 let opponentColumnPosition = 3;
 
-/* Pode atacar? */
 let kingCanAttack = false;
-
-// Calculo para entender se o ataque foi bem sucedido ou não
-
-// Se o rei esta na mesma linha que a peça oponente OU o rei esta na mesma coluna que a peça oponente, significa que o ataque é bem sucedido
 
 if (kingRowPosition - opponentRowPosition === 1 && kingColumnPosition - opponentColumnPosition === 1) {
   kingCanAttack = true;
